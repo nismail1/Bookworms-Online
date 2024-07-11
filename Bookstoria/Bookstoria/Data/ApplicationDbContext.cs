@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Bookstoria.Data
+namespace Bookworms.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

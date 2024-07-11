@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Bookstoria.EFDataAccess.Migrations
+namespace Bookworms.EFDataAccess.Migrations
 {
     public partial class Second : Migration
     {

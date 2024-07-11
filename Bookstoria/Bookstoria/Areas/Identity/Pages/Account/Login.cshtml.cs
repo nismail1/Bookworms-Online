@@ -11,9 +11,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using Bookstoria.AplicationLogic.Services;
+using Bookworms.AplicationLogic.Services;
 
-namespace Bookstoria.Areas.Identity.Pages.Account
+namespace Bookworms.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class LoginModel : PageModel

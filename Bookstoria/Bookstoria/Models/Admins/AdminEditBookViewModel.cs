@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bookstoria.Models.Admins
+namespace Bookworms.Models.Admins
 {
     public class AdminEditBookViewModel
     {

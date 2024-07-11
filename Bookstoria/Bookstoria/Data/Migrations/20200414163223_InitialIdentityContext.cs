@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Bookstoria.Data.Migrations
+namespace Bookworms.Data.Migrations
 {
     public partial class InitialIdentityContext : Migration
     {

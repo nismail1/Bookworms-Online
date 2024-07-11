@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Bookstoria.AplicationLogic.Model;
-using Bookstoria.AplicationLogic.Services;
-using Bookstoria.Models.Customers;
+using Bookworms.AplicationLogic.Model;
+using Bookworms.AplicationLogic.Services;
+using Bookworms.Models.Customers;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Bookstoria.Controllers
+namespace Bookworms.Controllers
 {
     public class CustomerController : Controller
     {

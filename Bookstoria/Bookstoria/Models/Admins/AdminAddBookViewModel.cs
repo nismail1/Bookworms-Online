@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Bookstoria.Models.Admins
+namespace Bookworms.Models.Admins
 {
     public class AdminAddBookViewModel
     {

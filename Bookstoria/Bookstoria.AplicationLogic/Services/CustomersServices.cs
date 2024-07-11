@@ -1,12 +1,12 @@
-﻿using Bookstoria.AplicationLogic.Abstractions;
-using Bookstoria.AplicationLogic.Model;
+﻿using Bookworms.AplicationLogic.Abstractions;
+using Bookworms.AplicationLogic.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Bookstoria.AplicationLogic.Services
+namespace Bookworms.AplicationLogic.Services
 {
     public class CustomersServices
     {

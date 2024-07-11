@@ -1,6 +1,6 @@
 using System;
 
-namespace Bookstoria.Models
+namespace Bookworms.Models
 {
     public class ErrorViewModel
     {

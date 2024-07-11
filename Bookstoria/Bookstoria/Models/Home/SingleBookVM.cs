@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bookstoria.Models.Home
+namespace Bookworms.Models.Home
 {
     public class SingleBookVM
     {

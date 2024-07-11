@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-Bookstoria-1AEA1EE8-EA3B-45DD-9959-474D2769342B</UserSecretsId>
+    <UserSecretsId>aspnet-Bookworms-1AEA1EE8-EA3B-45DD-9959-474D2769342B</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -45,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bookstoria.EFDataAccess\Bookstoria.EFDataAccess.csproj" />
+    <ProjectReference Include="..\Bookworms.EFDataAccess\Bookworms.EFDataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "xZc5yf089wQJ7ZMjS0wqJJxrf8R4Vq8wKfDhGjvkRovBXUg+fXcpyf/MKqYQt24yTY/W8iYYB1dDNE+VJVM3OQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj",
+  "projectFilePath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cosmin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Cosmin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

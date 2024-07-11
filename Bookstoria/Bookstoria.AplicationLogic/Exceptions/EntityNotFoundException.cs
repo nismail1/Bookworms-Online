@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bookstoria.AplicationLogic.Exceptions
+namespace Bookworms.AplicationLogic.Exceptions
 {
     public class EntityNotFoundException : Exception
     {

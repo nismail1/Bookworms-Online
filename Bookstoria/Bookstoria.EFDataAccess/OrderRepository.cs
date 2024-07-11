@@ -1,15 +1,15 @@
-﻿using Bookstoria.AplicationLogic.Abstractions;
-using Bookstoria.AplicationLogic.Model;
+﻿using Bookworms.AplicationLogic.Abstractions;
+using Bookworms.AplicationLogic.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace Bookstoria.EFDataAccess
+namespace Bookworms.EFDataAccess
 {
     public class OrderRepository : BaseRepository<Order>, IOrderRepository
     {
-        public OrderRepository(BookstoriaDbContext dbContext) : base(dbContext)
+        public OrderRepository(BookwormsDbContext dbContext) : base(dbContext)
         {
 
         }

@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bookstoria.AplicationLogic\Bookstoria.AplicationLogic.csproj" />
+    <ProjectReference Include="..\Bookworms.AplicationLogic\Bookworms.AplicationLogic.csproj" />
   </ItemGroup>
 
 </Project>

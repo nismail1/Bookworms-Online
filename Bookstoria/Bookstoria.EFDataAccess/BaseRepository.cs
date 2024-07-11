@@ -1,15 +1,15 @@
-﻿using Bookstoria.AplicationLogic.Abstractions;
+﻿using Bookworms.AplicationLogic.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace Bookstoria.EFDataAccess
+namespace Bookworms.EFDataAccess
 {
     public class BaseRepository<T> : IRepository<T> where T : class, new()
     {
-        protected readonly BookstoriaDbContext dbContext;
-        public BaseRepository(BookstoriaDbContext dbContext)
+        protected readonly BookwormsDbContext dbContext;
+        public BaseRepository(BookwormsDbContext dbContext)
         {
             this.dbContext = dbContext;
         }

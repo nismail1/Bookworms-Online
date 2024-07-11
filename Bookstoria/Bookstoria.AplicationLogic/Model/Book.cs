@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bookstoria.AplicationLogic.Model
+namespace Bookworms.AplicationLogic.Model
 {
     public class Book
     {

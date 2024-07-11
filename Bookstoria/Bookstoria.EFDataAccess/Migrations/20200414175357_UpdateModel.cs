@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Bookstoria.EFDataAccess.Migrations
+namespace Bookworms.EFDataAccess.Migrations
 {
     public partial class UpdateModel : Migration
     {

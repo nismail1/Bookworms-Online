@@ -8,16 +8,16 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using Bookstoria.Data;
+using Bookworms.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Bookstoria.EFDataAccess;
-using Bookstoria.AplicationLogic.Services;
-using Bookstoria.AplicationLogic.Model;
-using Bookstoria.AplicationLogic.Abstractions;
+using Bookworms.EFDataAccess;
+using Bookworms.AplicationLogic.Services;
+using Bookworms.AplicationLogic.Model;
+using Bookworms.AplicationLogic.Abstractions;
 
-namespace Bookstoria
+namespace Bookworms
 {
     public class Startup
     {
@@ -35,7 +35,7 @@ namespace Bookstoria
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddDbContext<BookstoriaDbContext>(options =>
+            services.AddDbContext<BookwormsDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
@@ -58,7 +58,7 @@ namespace Bookstoria
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider services, BookstoriaDbContext dbContext)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider services, BookwormsDbContext dbContext)
         {
             if (env.IsDevelopment())
             {
@@ -90,7 +90,7 @@ namespace Bookstoria
             CreateRoles(services, dbContext).Wait();
         }
 
-        private async Task CreateRoles(IServiceProvider serviceProvider, BookstoriaDbContext dbContext)
+        private async Task CreateRoles(IServiceProvider serviceProvider, BookwormsDbContext dbContext)
         {
             var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var UserManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();

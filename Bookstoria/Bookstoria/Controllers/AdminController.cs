@@ -4,17 +4,17 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Bookstoria.AplicationLogic.Model;
-using Bookstoria.AplicationLogic.Services;
-using Bookstoria.Models.Admins;
-using Bookstoria.Models.Customers;
+using Bookworms.AplicationLogic.Model;
+using Bookworms.AplicationLogic.Services;
+using Bookworms.Models.Admins;
+using Bookworms.Models.Customers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
-namespace Bookstoria.Controllers
+namespace Bookworms.Controllers
 {
     [Authorize]
     public class AdminController : Controller

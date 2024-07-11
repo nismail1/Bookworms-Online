@@ -7,16 +7,16 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Bookstoria.EFDataAccess/1.0.0": {
+      "Bookworms.EFDataAccess/1.0.0": {
         "dependencies": {
-          "Bookstoria.AplicationLogic": "1.0.0",
+          "Bookworms.AplicationLogic": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.3",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "Bookstoria.EFDataAccess.dll": {}
+          "Bookworms.EFDataAccess.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
@@ -1260,15 +1260,15 @@
           }
         }
       },
-      "Bookstoria.AplicationLogic/1.0.0": {
+      "Bookworms.AplicationLogic/1.0.0": {
         "runtime": {
-          "Bookstoria.AplicationLogic.dll": {}
+          "Bookworms.AplicationLogic.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Bookstoria.EFDataAccess/1.0.0": {
+    "Bookworms.EFDataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2071,7 +2071,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Bookstoria.AplicationLogic/1.0.0": {
+    "Bookworms.AplicationLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

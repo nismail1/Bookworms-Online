@@ -187,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj",
-      "projectName": "Bookstoria.AplicationLogic",
-      "projectPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj",
+      "projectUniqueName": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj",
+      "projectName": "Bookworms.AplicationLogic",
+      "projectPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj",
       "packagesPath": "C:\\Users\\Cosmin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\obj\\",
+      "outputPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

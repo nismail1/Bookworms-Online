@@ -1,5 +1,5 @@
 ﻿using System;
-using Bookstoria.Data;
+using Bookworms.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-[assembly: HostingStartup(typeof(Bookstoria.Areas.Identity.IdentityHostingStartup))]
-namespace Bookstoria.Areas.Identity
+[assembly: HostingStartup(typeof(Bookworms.Areas.Identity.IdentityHostingStartup))]
+namespace Bookworms.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {

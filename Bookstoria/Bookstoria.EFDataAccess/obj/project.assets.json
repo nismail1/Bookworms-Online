@@ -1717,14 +1717,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bookstoria.AplicationLogic/1.0.0": {
+      "Bookworms.AplicationLogic/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Bookstoria.AplicationLogic.dll": {}
+          "bin/placeholder/Bookworms.AplicationLogic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bookstoria.AplicationLogic.dll": {}
+          "bin/placeholder/Bookworms.AplicationLogic.dll": {}
         }
       }
     }
@@ -6245,15 +6245,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Bookstoria.AplicationLogic/1.0.0": {
+    "Bookworms.AplicationLogic/1.0.0": {
       "type": "project",
-      "path": "../Bookstoria.AplicationLogic/Bookstoria.AplicationLogic.csproj",
-      "msbuildProject": "../Bookstoria.AplicationLogic/Bookstoria.AplicationLogic.csproj"
+      "path": "../Bookworms.AplicationLogic/Bookworms.AplicationLogic.csproj",
+      "msbuildProject": "../Bookworms.AplicationLogic/Bookworms.AplicationLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Bookstoria.AplicationLogic >= 1.0.0",
+      "Bookworms.AplicationLogic >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.3",
@@ -6268,11 +6268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj",
-      "projectName": "Bookstoria.EFDataAccess",
-      "projectPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj",
+      "projectUniqueName": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj",
+      "projectName": "Bookworms.EFDataAccess",
+      "projectPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj",
       "packagesPath": "C:\\Users\\Cosmin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\obj\\",
+      "outputPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6293,8 +6293,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj": {
-              "projectPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj"
+            "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj": {
+              "projectPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj"
             }
           }
         }

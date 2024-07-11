@@ -1,9 +1,9 @@
-﻿using Bookstoria.AplicationLogic.Model;
+﻿using Bookworms.AplicationLogic.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bookstoria.AplicationLogic.Abstractions
+namespace Bookworms.AplicationLogic.Abstractions
 {
     public interface IBookRepository : IRepository<Book>
     {

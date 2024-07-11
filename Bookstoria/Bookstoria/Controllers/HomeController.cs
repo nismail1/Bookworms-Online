@@ -5,15 +5,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Bookstoria.Models;
+using Bookworms.Models;
 using Microsoft.AspNetCore.Identity;
-using Bookstoria.AplicationLogic.Model;
-using Bookstoria.AplicationLogic.Services;
-using Bookstoria.Models.Admins;
-using Bookstoria.Models.Home;
-using Bookstoria.AplicationLogic.Exceptions;
+using Bookworms.AplicationLogic.Model;
+using Bookworms.AplicationLogic.Services;
+using Bookworms.Models.Admins;
+using Bookworms.Models.Home;
+using Bookworms.AplicationLogic.Exceptions;
 
-namespace Bookstoria.Controllers
+namespace Bookworms.Controllers
 {
     public class HomeController : Controller
     {

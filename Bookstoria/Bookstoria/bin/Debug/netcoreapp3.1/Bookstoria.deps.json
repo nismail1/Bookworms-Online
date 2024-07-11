@@ -22,9 +22,9 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Bookstoria/1.0.0": {
+      "Bookworms/1.0.0": {
         "dependencies": {
-          "Bookstoria.EFDataAccess": "1.0.0",
+          "Bookworms.EFDataAccess": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.3",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.3",
           "Microsoft.AspNetCore.Identity.UI": "3.1.3",
@@ -298,10 +298,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Bookstoria.dll": {}
+          "Bookworms.dll": {}
         },
         "compile": {
-          "Bookstoria.dll": {}
+          "Bookworms.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.3": {
@@ -2252,25 +2252,25 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Bookstoria.AplicationLogic/1.0.0": {
+      "Bookworms.AplicationLogic/1.0.0": {
         "runtime": {
-          "Bookstoria.AplicationLogic.dll": {}
+          "Bookworms.AplicationLogic.dll": {}
         },
         "compile": {
-          "Bookstoria.AplicationLogic.dll": {}
+          "Bookworms.AplicationLogic.dll": {}
         }
       },
-      "Bookstoria.EFDataAccess/1.0.0": {
+      "Bookworms.EFDataAccess/1.0.0": {
         "dependencies": {
-          "Bookstoria.AplicationLogic": "1.0.0",
+          "Bookworms.AplicationLogic": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3"
         },
         "runtime": {
-          "Bookstoria.EFDataAccess.dll": {}
+          "Bookworms.EFDataAccess.dll": {}
         },
         "compile": {
-          "Bookstoria.EFDataAccess.dll": {}
+          "Bookworms.EFDataAccess.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3866,7 +3866,7 @@
     }
   },
   "libraries": {
-    "Bookstoria/1.0.0": {
+    "Bookworms/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5005,12 +5005,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Bookstoria.AplicationLogic/1.0.0": {
+    "Bookworms.AplicationLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Bookstoria.EFDataAccess/1.0.0": {
+    "Bookworms.EFDataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

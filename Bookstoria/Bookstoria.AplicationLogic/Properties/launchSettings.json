@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Bookstoria.AplicationLogic": {
+    "Bookworms.AplicationLogic": {
       "commandName": "Project",
       "sqlDebugging": false
     }

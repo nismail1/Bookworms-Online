@@ -7,12 +7,12 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Bookstoria.AplicationLogic/1.0.0": {
+      "Bookworms.AplicationLogic/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "Bookstoria.AplicationLogic.dll": {}
+          "Bookworms.AplicationLogic.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Bookstoria.AplicationLogic/1.0.0": {
+    "Bookworms.AplicationLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

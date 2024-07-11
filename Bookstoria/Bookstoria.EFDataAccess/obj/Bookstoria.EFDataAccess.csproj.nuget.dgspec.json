@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj": {}
+    "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj": {}
   },
   "projects": {
-    "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj": {
+    "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj",
-        "projectName": "Bookstoria.AplicationLogic",
-        "projectPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj",
+        "projectUniqueName": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj",
+        "projectName": "Bookworms.AplicationLogic",
+        "projectPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj",
         "packagesPath": "C:\\Users\\Cosmin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\obj\\",
+        "outputPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj": {
+    "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj",
-        "projectName": "Bookstoria.EFDataAccess",
-        "projectPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\Bookstoria.EFDataAccess.csproj",
+        "projectUniqueName": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj",
+        "projectName": "Bookworms.EFDataAccess",
+        "projectPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\Bookworms.EFDataAccess.csproj",
         "packagesPath": "C:\\Users\\Cosmin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.EFDataAccess\\obj\\",
+        "outputPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.EFDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj": {
-                "projectPath": "D:\\GitHubRepos\\Bookstoria\\Bookstoria\\Bookstoria.AplicationLogic\\Bookstoria.AplicationLogic.csproj"
+              "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj": {
+                "projectPath": "D:\\GitHubRepos\\Bookworms\\Bookworms\\Bookworms.AplicationLogic\\Bookworms.AplicationLogic.csproj"
               }
             }
           }

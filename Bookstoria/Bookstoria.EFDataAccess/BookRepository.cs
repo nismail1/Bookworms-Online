@@ -1,6 +1,6 @@
-﻿using Bookstoria.AplicationLogic;
-using Bookstoria.AplicationLogic.Abstractions;
-using Bookstoria.AplicationLogic.Model;
+﻿using Bookworms.AplicationLogic;
+using Bookworms.AplicationLogic.Abstractions;
+using Bookworms.AplicationLogic.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,12 +9,12 @@ using System.Dynamic;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace Bookstoria.EFDataAccess
+namespace Bookworms.EFDataAccess
 {
     public class BookRepository : BaseRepository<Book>, IBookRepository
     {
         SqlConnection conn;
-        public BookRepository(BookstoriaDbContext dbContext, IConfiguration configuration) : base(dbContext)
+        public BookRepository(BookwormsDbContext dbContext, IConfiguration configuration) : base(dbContext)
         {
             conn = new SqlConnection(configuration.GetConnectionString("DefaultConnection"));
         }

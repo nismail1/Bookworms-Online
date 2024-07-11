@@ -1,15 +1,15 @@
-﻿using Bookstoria.AplicationLogic.Abstractions;
-using Bookstoria.AplicationLogic.Model;
+﻿using Bookworms.AplicationLogic.Abstractions;
+using Bookworms.AplicationLogic.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Bookstoria.EFDataAccess
+namespace Bookworms.EFDataAccess
 {
     public class AdminRepository : BaseRepository<Admin>, IAdminRepository
     {
-        public AdminRepository(BookstoriaDbContext dbContext) : base(dbContext)
+        public AdminRepository(BookwormsDbContext dbContext) : base(dbContext)
         {
 
         }

@@ -1,14 +1,14 @@
-﻿using Bookstoria.AplicationLogic.Model;
+﻿using Bookworms.AplicationLogic.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bookstoria.EFDataAccess
+namespace Bookworms.EFDataAccess
 {
-    public class BookstoriaDbContext : DbContext
+    public class BookwormsDbContext : DbContext
     {
-        public BookstoriaDbContext(DbContextOptions<BookstoriaDbContext> options): base(options)
+        public BookwormsDbContext(DbContextOptions<BookwormsDbContext> options): base(options)
         {
         }
 
