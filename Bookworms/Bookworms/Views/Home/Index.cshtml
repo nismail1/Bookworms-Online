@@ -1,0 +1,213 @@
+﻿@model Bookworms.Models.Home.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <title>Bookworms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Bookworms" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <!-- shop css -->
+    <link href="css/shop.css" type="text/css" rel="stylesheet" media="all">
+    <!-- checkout css -->
+    <link href="css/checkout.css" type="text/css" rel="stylesheet" media="all">
+    <!-- Range-slider-css -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
+    <!-- common-css -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <!-- logo -->
+    <link href="//fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <!-- titles -->
+    <link href="//fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+    <!-- body -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+
+<div class="banner-bg-agileits">
+    <!-- banner-text -->
+    <div class="banner-text">
+        <div class="container">
+            <p class="b-txt">the</p>
+            <h2 class="title">
+                Library
+            </h2>
+            <ul class="banner-txt">
+                <li>share.</li>
+                <li> explore. </li>
+                <li>amplify.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- //banner-text -->
+</div>
+<div class="left-ads-display col-md-9">
+    <div class="wrapper_top_shop">
+        <!-- product-sec1 -->
+        <div class="product-sec1">
+            <!-- row1-->
+
+            @foreach (var book in Model.Books)
+            {
+                <div class="col-md-3 product-men">
+                    <div class="product-chr-info chr">
+                        <div class="thumbnail">
+                            <a asp-controller="Home" asp-action="SingleBook" asp-route-id="@book.ID">
+                                <img src="data:image/png;base64, @book.Image" width="100" height="100" alt="">
+                            </a>
+                        </div>
+                        <div class="caption">
+                            <h4>@book.Title</h4>
+                            <p>@book.Author</p>
+                            <div class="matrlf-mid">
+                                
+                                <ul class="price-list">
+                                    <li>
+                                        @{double actualPrice = book.Price;}
+                                        @if(book.Discount != null)
+                                        {
+                                            actualPrice = book.Price - book.Discount.Value * book.Price;
+                                        }
+                                                
+                                        @actualPrice
+                                    </li>
+                                    <li>
+                                        @if (actualPrice != book.Price)
+                                        {
+                                            @book.Price
+                                        }
+                                    </li>
+                                </ul>
+
+                                <div class="clearfix"> </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+        <!-- //product-sec1 -->
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<script src="js/jquery-2.2.3.min.js"></script>
+<!--// Common js -->
+<!-- cart-js -->
+<script src="js/minicart.js"></script>
+<script>
+    chr.render();
+
+    chr.cart.on('new_checkout', function (evt) {
+        var items, len, i;
+
+        if (this.subtotal() > 0) {
+            items = this.items();
+
+            for (i = 0, len = items.length; i < len; i++) { }
+        }
+    });
+</script>
+<!-- //cart-js -->
+<!-- price range (top products) -->
+<script src="js/jquery-ui.js"></script>
+<script>
+    //<![CDATA[
+    $(window).load(function () {
+        $("#slider-range").slider({
+            range: true,
+            min: 0,
+            max: 9000,
+            values: [50, 6000],
+            slide: function (event, ui) {
+                $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+            }
+        });
+        $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+
+    }); //]]>
+</script>
+<!-- //price range (top products) -->
+<!-- dropdown nav -->
+<script>
+    $(document).ready(function () {
+        $(".dropdown").hover(
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+    });
+</script>
+<!-- //dropdown nav -->
+<!--search jQuery-->
+<script src="js/main.js"></script>
+<!--search jQuery-->
+<!-- Scrolling Nav JavaScript -->
+<script src="js/scrolling-nav.js"></script>
+<!-- //fixed-scroll-nav-js -->
+<!--//scripts-->
+
+<script src="js/bootstrap.js"></script>
+<!-- start-smoth-scrolling -->
+<script src="js/move-top.js"></script>
+<script src="js/easing.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000);
+        });
+    });
+</script>
+<!-- start-smoth-scrolling -->
+<!-- here stars scrolling icon -->
+<script>
+    $(document).ready(function () {
+        /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+        */
+
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+
+    });
+</script>
+<!-- //here ends scrolling icon -->
+<!-- smoothscroll -->
+<script src="js/SmoothScroll.min.js"></script>
+<!-- //smoothscroll -->

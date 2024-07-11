@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Bookworms.AplicationLogic": {
-      "commandName": "Project",
-      "sqlDebugging": false
-    }
-  }
-}

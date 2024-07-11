@@ -1,9 +1,0 @@
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\bin\Debug\netstandard2.0\Bookworms.AplicationLogic.deps.json
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\bin\Debug\netstandard2.0\Bookworms.AplicationLogic.dll
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\bin\Debug\netstandard2.0\Bookworms.AplicationLogic.pdb
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\obj\Debug\netstandard2.0\Bookworms.AplicationLogic.csprojAssemblyReference.cache
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\obj\Debug\netstandard2.0\Bookworms.AplicationLogic.csproj.CoreCompileInputs.cache
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\obj\Debug\netstandard2.0\Bookworms.AplicationLogic.AssemblyInfoInputs.cache
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\obj\Debug\netstandard2.0\Bookworms.AplicationLogic.AssemblyInfo.cs
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\obj\Debug\netstandard2.0\Bookworms.AplicationLogic.dll
-D:\GitHubRepos\Bookworms\Bookworms\Bookworms.AplicationLogic\obj\Debug\netstandard2.0\Bookworms.AplicationLogic.pdb
